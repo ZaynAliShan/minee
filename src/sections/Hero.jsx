@@ -24,7 +24,7 @@ const LinkedInIcon = (props) => (
 const Hero = () => {
   return (
     <section
-      id="hero"
+      id="home"
       className="relative isolate h-[100svh] w-screen overflow-hidden bg-[#030412]"
       aria-label="Intro"
     >
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="relative mb-6 h-28 w-28 overflow-hidden rounded-full ring-1 ring-white/10 shadow-2xl shadow-black/40 md:h-32 md:w-32">
           {/* Put your image in /public/assets/avatar/me.jpeg */}
           <img
-            src="/assets/avatar/me.jpeg"
+            src="/assets/avatar/me.webp"
             alt="Hamna Jalil"
             className="h-full w-full object-cover"
             draggable={false}
@@ -53,30 +53,26 @@ const Hero = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-2 max-w-xl text-sm text-slate-300/90 md:text-base">
+        <p className="mt-2 max-w-xl text-sm  md:text-base text-white">
           Hey, I am a Project Manager
         </p>
 
         {/* Socials */}
         <div className="mt-5 flex items-center gap-4">
-          <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="GitHub"
-            className="text-white/80 hover:text-white transition"
-          >
-            <GitHubIcon className="h-5 w-5 md:h-6 md:w-6" />
-          </a>
-          <a
-            href="https://linkedin.com/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="LinkedIn"
-            className="text-white/80 hover:text-white transition"
-          >
-            <LinkedInIcon className="h-5 w-5 md:h-6 md:w-6" />
-          </a>
+        <a
+          href="mailto:HamnaJalil@gmail.com"
+          className="flex items-center gap-3 underline"
+        >
+          <img src="/assets/logos/gmail.png" alt="Email" className="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/hamnabukhari"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 underline"
+        >
+          <img src="/assets/logos/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
+        </a>
         </div>
 
         {/* CTA (animated gradient border) */}

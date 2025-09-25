@@ -10,68 +10,96 @@ const About = () => {
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
-        {/* Grid 1 */}
-        <div className="flex items-end grid-default-color grid-1">
-          <img
-            src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
-          />
-          <div className="z-10">
-            <p className="headtext">Hi, I'm Hamna Jalili</p>
-            <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
-            </p>
-          </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+      {/* Grid 1 */}
+      <div className="relative flex items-end grid-default-color grid-1 overflow-hidden">
+      <img
+        src="assets/COVER.webp"
+        className="
+          absolute inset-0 w-full h-full object-cover z-0
+          object-center          /* default for smaller screens */
+          xl:object-[44%_center] /* shift focus when ≥1200px */
+        "
+        alt="Cover"
+      />
+
+
+        {/* Overlay visible on ALL screens */}
+        <div
+          className="absolute inset-0 z-[5] pointer-events-none"
+          style={{ backgroundColor: "rgba(38, 40, 71, 0.7)" }} // #262847 @ 60% opacity
+        />
+
+        <div className="z-10 relative p-4">
+          <p className="headtext">Hi, I'm Hamna Jalili</p>
+          <p className="subtext">
+            <span style={{ color: "white" }}>            
+            Results-driven Game Production professional skilled in project
+            management, team coordination, and delivering high-quality player
+            experiences. 🚀</span>
+
+          </p>
         </div>
+
+        <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+      </div>
+
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
           <div
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+            <p className="flex items-end text-4xl text-gray-500">
+              PLANS DRIVE SUCCESS
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="Issue Tracking"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
+              text="AGILE"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="Workflows"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
+              text="Project Planning"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="Whiteboarding"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
+              image="assets/logos/jira.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/miro.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/confluence.png"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              image="assets/logos/notion.png"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "10%", left: "85%" }}
+              image="assets/logos/jira-2.png"
               containerRef={grid2Container}
             />
           </div>
@@ -81,7 +109,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              <span style={{ color: "white" }}>I'm based in Lahore, Pakistan, and open to hybrib, and remote work worldwide.</span>
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -102,8 +130,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              <span style={{ color: "white" }}>I specialize in agile methodologies, precise scheduling, 
+                and cross-functional coordination to build high-quality products.</span>
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

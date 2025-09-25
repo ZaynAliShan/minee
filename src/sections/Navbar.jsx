@@ -23,6 +23,17 @@ function Navigation() {
           Contact
         </a>
       </li>
+      <li className="nav-li">
+        <a
+          href="/assets/resume/HamnaJalilResume.pdf"
+          download="HamnaJalil_Resume.pdf"
+          className="nav-link text-white inline-flex items-center justify-center gap-2 mx-auto"
+          aria-label="Download resume"
+        >
+          <span className="text-white">Resume</span>
+          <img src="/assets/logos/download.png" alt="" className="w-6 h-6" />
+        </a>
+      </li>
     </ul>
   );
 }
