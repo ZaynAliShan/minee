@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Experiences from "./sections/Experiences";
+import Certifications from "./sections/Certifications";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -21,6 +22,10 @@ const App = () => {
         <About />
         <Projects />
         <Experiences />
+        <Certifications
+          maxWidth="max-w-5xl"                // 5xl, 6xl, 7xl… or your container class
+          height="h-[420px] md:h-[520px] lg:h-[620px]"  // per breakpoint
+        />  
         <Testimonial />
         <Contact />
         <Footer />
