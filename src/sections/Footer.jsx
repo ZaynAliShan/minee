@@ -27,7 +27,7 @@ const Footer = () => {
                               text-white/30"           // encrypted letters (dim)
 
           // optional: scramble from this character set
-          characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&_"
+          characters="люблютебяДжаан"
         />
       </div>
 
