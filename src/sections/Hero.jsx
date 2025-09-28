@@ -54,7 +54,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="mt-2 max-w-xl text-sm  md:text-base text-white">
-          Hey, I am a Project Manager
+          Hey, I am a Product Manager
         </p>
 
         {/* Socials */}

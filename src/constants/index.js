@@ -18,18 +18,28 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: "Confluence",
+        path: "/assets/logos/confluence.svg",
+      },
+      {
+        id: 3,
+        name: "Amplitude",
+        path: "/assets/logos/amp-1.svg",
+      },
+      {
+        id: 4,
         name: "Notion",
         path: "/assets/logos/notion.svg",
       },
       {
-        id: 3,
-        name: "Confluence",
-        path: "/assets/logos/confluence.png",
-      },
-      {
-        id: 4,
+        id: 5,
         name: "Miro",
         path: "/assets/logos/miro.svg",
+      },
+      {
+        id: 6,
+        name: "Figma",
+        path: "/assets/logos/figma.svg",
       },
     ],
   },
@@ -47,24 +57,35 @@ export const myProjects = [
     tags: [
       {
         id: 1,
+        name: "Amplitude",
+        path: "/assets/logos/amp-1.svg",
+      },
+      {
+        id: 2,
+        name: "Confluence",
+        path: "/assets/logos/confluence.svg",
+      },
+      {
+        id: 3,
         name: "Jira",
         path: "/assets/logos/jira-1.svg",
       },
       {
-        id: 2,
+        id: 4,
+        name: "Figma",
+        path: "/assets/logos/figma.svg",
+      },
+      {
+        id: 5,
+        name: "Miro",
+        path: "/assets/logos/miro.svg",
+      },
+      {
+        id: 6,
         name: "Notion",
         path: "/assets/logos/notion.svg",
       },
-      {
-        id: 3,
-        name: "Miro",
-        path: "/assets/logos/miro.png",
-      },
-      {
-        id: 4,
-        name: "Confluence",
-        path: "/assets/logos/confluence.svg",
-      },
+
     ],
   },
   {
@@ -81,23 +102,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Notion",
-        path: "/assets/logos/notion.svg",
+        name: "Jira",
+        path: "/assets/logos/jira-1.svg",
       },
       {
         id: 2,
-        name: "Mrio",
-        path: "/assets/logos/miro.svg",
+        name: "Amplitude",
+        path: "/assets/logos/amp-1.svg",
       },
       {
         id: 3,
         name: "Confluence",
-        path: "/assets/logos/confluence.png",
+        path: "/assets/logos/confluence.svg",
       },
       {
         id: 4,
-        name: "Jira",
-        path: "/assets/logos/jira-1.svg",
+        name: "Figma",
+        path: "/assets/logos/figma.svg",
+      },
+      {
+        id: 5,
+        name: "Notion",
+        path: "/assets/logos/notion.svg",
+      },
+      {
+        id: 6,
+        name: "Miro",
+        path: "/assets/logos/miro.svg",
       },
     ],
   },
@@ -233,18 +264,18 @@ export const mySocials = [
 ];
 
 export const experiences = [
-  {
-    title: "Technical Project Coordinator",
-    job: "Computing Solutions (Pvt) Ltd.",
-    date: "Jan 2022 - Mar 2022",
-    contents: [
-      "✅ Project Management – Successfully led and managed projects from initiation to delivery.",
-      "✅ Technical Training – Had technical training sessions to upskill team members.",
-      "✅ Technical Documentation – Created clear and comprehensive technical documentation.",
-      "✅ Critical Thinking – Applied critical thinking to solve complex project challenges.",
-      "✅ Requirements Analysis – Gathered and analyzed requirements to define project scope..",
-    ],
-  },
+  // {
+  //   title: "Technical Project Coordinator",
+  //   job: "Computing Solutions (Pvt) Ltd.",
+  //   date: "Jan 2022 - Mar 2022",
+  //   contents: [
+  //     "✅ Project Management – Successfully led and managed projects from initiation to delivery.",
+  //     "✅ Technical Training – Had technical training sessions to upskill team members.",
+  //     "✅ Technical Documentation – Created clear and comprehensive technical documentation.",
+  //     "✅ Critical Thinking – Applied critical thinking to solve complex project challenges.",
+  //     "✅ Requirements Analysis – Gathered and analyzed requirements to define project scope..",
+  //   ],
+  // },
   {
     title: "Technical Project Manager",
     job: "FRAG Games",
@@ -259,7 +290,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Associate Project Manager",
+    title: "Associate Product Manager",
     job: "Revolving Games, Inc.",
     date: "Sep 2023 - Present",
     contents: [
@@ -278,48 +309,56 @@ export const reviews = [
     name: "Darryl K",
     username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
     body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.jpeg",
+    img: "/assets/logos/darryl.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
+  },
+  {
+    name: "Vikki R.",
+    username: "Associate Design Director | Shipped at Scopely, Wildlife, Revolving",
+    body: "Working with Hamna has been one of the highlights of my time at Revolving Games. She is, without exaggeration, a powerhouse producer - incredibly hardworking, razor-sharp...",
+    img: "/assets/logos/vikki.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Martin Talbot",
     username: "Game Director at Revolving Games, Inc.",
     body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed...",
-    img: "/assets/logos/martin.jpeg",
+    img: "/assets/logos/martin.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
+  },
+  {
+    name: "Iggy Medeiros",
+    username: "Principal Art Director at Revolving Games, Inc.",
+    body: "I had the pleasure of working with Hamna at Revolving Games, where she was an outstanding product manager and collaborator...",
+    img: "/assets/logos/Iggy.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Darryl K",
     username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
     body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.jpeg",
+    img: "/assets/logos/darryl.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
-    name: "Martin Talbot",
-    username: "Game Director at Revolving Games, Inc.",
-    body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed...",
-    img: "/assets/logos/martin.jpeg",
+    name: "Vikki R.",
+    username: "Associate Design Director | Shipped at Scopely, Wildlife, Revolving",
+    body: "Working with Hamna has been one of the highlights of my time at Revolving Games. She is, without exaggeration, a powerhouse producer - incredibly hardworking, razor-sharp...",
+    img: "/assets/logos/vikki.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
-    name: "Darryl K",
-    username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
-    body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.jpeg",
-  },
-  {
-    name: "Martin Talbot",
-    username: "Game Director at Revolving Games, Inc.",
-    body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed...",
-    img: "/assets/logos/martin.jpeg",
+    name: "Iggy Medeiros",
+    username: "Principal Art Director at Revolving Games, Inc.",
+    body: "I had the pleasure of working with Hamna at Revolving Games, where she was an outstanding product manager and collaborator...",
+    img: "/assets/logos/Iggy.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Darryl K",
     username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
     body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.jpeg",
-  },
-  {
-    name: "Martin Talbot",
-    username: "Game Director at Revolving Games, Inc.",
-    body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed...",
-    img: "/assets/logos/martin.jpeg",
+    img: "/assets/logos/darryl.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
 ];
