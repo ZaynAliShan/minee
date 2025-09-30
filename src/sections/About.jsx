@@ -30,7 +30,7 @@ const About = () => {
         />
 
         <div className="z-10 relative p-4">
-          <p className="headtext">Hi, I'm Hamna Jalili</p>
+          <p className="headtext">Hi, I'm Hamna Jalil</p>
           <p className="subtext">
             <span style={{ color: "white" }}>            
             Results-driven Game Production professional skilled in project
@@ -109,7 +109,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              <span style={{ color: "white" }}>I'm based in Lahore, Pakistan, and open to hybrib, and remote work worldwide.</span>
+              <span style={{ color: "white" }}>I'm based in Lahore, Pakistan, and open to hybrid, and remote work worldwide.</span>
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
