@@ -334,10 +334,10 @@ export const reviews = [
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
-    name: "Darryl K",
-    username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
-    body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.webp",
+    name: "Leo Talento",
+    username: "Art Director at at Revolving Games, Inc.",
+    body: "I had the pleasure of working with Hamna recently, and I was truly impressed by her exceptional project management skills. She demonstrates great foresight...",
+    img: "/assets/logos/leo.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
