@@ -340,25 +340,4 @@ export const reviews = [
     img: "/assets/logos/leo.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
-  {
-    name: "Vikki R.",
-    username: "Associate Design Director | Shipped at Scopely, Wildlife, Revolving",
-    body: "Working with Hamna has been one of the highlights of my time at Revolving Games. She is, without exaggeration, a powerhouse producer - incredibly hardworking, razor-sharp...",
-    img: "/assets/logos/vikki.webp",
-    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
-  },
-  {
-    name: "Iggy Medeiros",
-    username: "Principal Art Director at Revolving Games, Inc.",
-    body: "I had the pleasure of working with Hamna at Revolving Games, where she was an outstanding product manager and collaborator...",
-    img: "/assets/logos/Iggy.webp",
-    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
-  },
-  {
-    name: "Darryl K",
-    username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
-    body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
-    img: "/assets/logos/darryl.webp",
-    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
-  },
 ];
