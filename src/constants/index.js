@@ -5,9 +5,9 @@ export const myProjects = [
     description:
       "Associated with Revolving Games, Inc.",
     subDescription: [
-      "Working on Skyborne: Phoenix Flight, a cozy RPG that combines Animal Crossing–style gameplay with dragons, social collectivity, and web3 features.",
+      "Skyborne Legacy is a social world exploration and trading MMORPG where you can explore, create, customize and battle. With seasons that reflect real life, there's new activities to discover each week. Set your own pace and do what you love.",
     ],
-    href: "https://www.youtube.com/watch?v=hn0PAF1Aws4",
+    href: "https://revolvinggames.com/games/skyborne",
     logo: "",
     image: "/assets/projects/sbl.webp",
     tags: [
@@ -45,7 +45,7 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Skyborne Genesis (Staking Game for Skyborne Legacy)",
+    title: "Skyborne Genesis",
     description:
       "Associated with Revolving Games, Inc.",
     subDescription: [
@@ -306,38 +306,52 @@ export const experiences = [
 ];
 export const reviews = [
   {
-    name: "Darryl K",
+    name: "Darryl Kay",
     username: "Emmy-nominated Producer | Mentor | Former @ Ubisoft, Baobab, NetEase, Nike",
-    body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy...",
+    body: "I had the pleasure of collaborating on different projects with Hamna at Revolving Games. Hamna's dedication to her work is truly noteworthy. She worked tirelessly to bridge the gap between design, art, and engineering to ensure a clear vision for our projects. Her ability to maintain clarity even in the most complex situations proved vital to the progress and health of the project.\n\nHamna cares. She always puts the team first and always wants to make sure they understand what's important and does her best to keep the noise out. Her strength in multi-tasking is unparalleled, as she was able to handle multiple projects simultaneously. If you need someone on your team that is reliable, can keep projects on track, and works well with any team, look no further.",
     img: "/assets/logos/darryl.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
-    name: "Vikki R.",
-    username: "Associate Design Director | Shipped at Scopely, Wildlife, Revolving",
-    body: "Working with Hamna has been one of the highlights of my time at Revolving Games. She is, without exaggeration, a powerhouse producer - incredibly hardworking, razor-sharp...",
+    name: "Vikki Ruttle",
+    username: "Associate Design Director | Shipped at Scopely, Wildlife, Revolving Games",
+    body: "Working with Hamna has been one of the highlights of my time at Revolving Games. She is, without exaggeration, a powerhouse producer - incredibly hardworking, razor-sharp, and always on top of every detail.\n\nFor a significant portion of our project’s lifecycle, Hamna was the sole producer covering design, art, and engineering. She not only strived to keep production running smoothly across all departments but also pushed for clarity and direction whenever things were uncertain, ensuring the team always had what they needed to stay unblocked and moving forward.\n\nHer ability to juggle complex priorities, remember everything (seriously, everything!), and anticipate challenges before they become issues is unmatched. Beyond her production skills, Hamna brings empathy, care, and an unwavering drive to get the best outcomes for both the team and the game.\n\nI can honestly say Hamna has been my hero at work - someone I could always count on. Any team would be incredibly lucky to have her.",
     img: "/assets/logos/vikki.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Martin Talbot",
     username: "Game Director at Revolving Games, Inc.",
-    body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed...",
+    body: "Hamna brought structure, clarity, and passion to production, keeping schedules and priorities aligned while ensuring Skyborne had what they needed to succeed. She handled growing responsibilities with care, adapted to constantly shifting priorities, and improved processes reporting between teams in North America and Pakistan. A collaborative partner (and very competitive gamer 🎮), she elevated both the quality of the work and the culture of the team!",
     img: "/assets/logos/martin.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Iggy Medeiros",
     username: "Principal Art Director at Revolving Games, Inc.",
-    body: "I had the pleasure of working with Hamna at Revolving Games, where she was an outstanding product manager and collaborator...",
+    body: "I had the pleasure of working with Hamna at Revolving Games, where she was an outstanding product manager and collaborator. She helped me lead a team of artists and designers across multiple time zones, always bringing attention to detail, adaptability, and proactive leadership that shaped the direction of our products.\n\nHamna inspired me with her ability to guide diverse teams, communicate seamlessly across disciplines, and keep projects aligned with goals.\n\nBeyond her professional strengths, she genuinely cared about the people she worked with, making her a trusted and valued teammate. I would highly recommend Hamna for any role that demands excellent communication, leadership, and a deep understanding of game development processes and tools.",
     img: "/assets/logos/Iggy.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
   {
     name: "Leo Talento",
     username: "Art Director at at Revolving Games, Inc.",
-    body: "I had the pleasure of working with Hamna recently, and I was truly impressed by her exceptional project management skills. She demonstrates great foresight...",
+    body: "I had the pleasure of working with Hamna recently, and I was truly impressed by her exceptional project management skills. She demonstrates great foresight, keeps communication clear and professional, and ensures every conversation is well-organized and technically sound. Hamna is highly responsive, adapts quickly to any situation, and maintains well-structured schedules that keep projects on track. She connects easily with people, understands tasks thoroughly, and anticipates needs across a broad scope. Beyond her technical strengths, she is kind & friendly, making collaboration smooth and effective. Hamna is an effective leader and someone you can trust, many others will agree.",
     img: "/assets/logos/leo.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
+  },
+  {
+    name: "Christopher Arrington",
+    username: "Director of Product at Revolving Games",
+    body: "Hamna is a very dedicated and driven individual who cares deeply for the project, team, and the company. She is smart but always willing to learn and received feedback very well in an effort to improve her work and continue to produce at a level beyond her title.\n\nWorking in a lean startup environment she rose to the challenge and demonstrated an ability to produce and manage the various pipelines for our Skyborne project across multiple disciplines: engineering, QA, art, and design.\n\nShe is open honest and is out ahead of any potential road blocks the project may be coming up against and keeps everyone aligned towards the projects goals whether it is junior, seniors, or even directors on the team. Any team should consider themselves lucky to have someone like Hamna as part of their production team.",
+    img: "/assets/logos/chris.webp",
+    link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
+  },
+  {
+    name: "Boris Giftge",
+    username: "Head of Engineering at Revolving Games",
+    body: "I had the pleasure of working with Hamna at Revolving Games, where she stepped up to take on key product management responsibilities during a particularly demanding period. As an Associate Product Manager, she showed great initiative and earned the team’s respect through her positive attitude, reliability, and willingness to take on challenges outside her comfort zone. Even when things felt overwhelming, she stayed focused and helped keep the team moving forward. I’m confident she’ll continue to grow into an excellent product leader, and I’d be happy to work with her again.",
+    img: "/assets/logos/boris.webp",
     link: "https://www.linkedin.com/in/hamnabukhari/details/recommendations/",
   },
 ];
