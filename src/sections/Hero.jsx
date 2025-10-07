@@ -2,6 +2,7 @@
 "use client";
 
 import HoverBorderGradient from "../components/HoverBorderGradient";
+import { BackgroundBeamsWithCollision } from "../components/BackgroundBeamsWithCollision";
 
 const GitHubIcon = (props) => (
   <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -28,11 +29,8 @@ const Hero = () => {
       className="relative isolate h-[100svh] w-screen overflow-hidden bg-[#030412]"
       aria-label="Intro"
     >
-      {/* background layers (kept behind everything) */}
-      {/* <Boxes className="-z-20" /> */}
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-[#030412]/50 via-transparent to-[#030412]/80" />
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[18vh] -z-10 bg-gradient-to-t from-transparent via-[#030412]/30 to-[#030412]/95" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[18vh] -z-10 bg-gradient-to-b from-transparent via-[#030412]/30 to-[#030412]/95" />
+
+      <BackgroundBeamsWithCollision className="opacity-75"/> 
 
       {/* centered content */}
       <div className="relative z-20 mx-auto flex h-full max-w-3xl flex-col items-center justify-center px-6 text-center">
